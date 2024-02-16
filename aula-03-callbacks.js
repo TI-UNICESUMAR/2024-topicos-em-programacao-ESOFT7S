@@ -1,71 +1,61 @@
-const fs = require('fs');
+const fs = require('fs').promises;
 
-function escreverArquivoCallback(nomeArquivo, dados, callback) {
+async function escreverArquivoCallback(nomeArquivo, dados) {
     console.log(`Escrevendo dados no arquivo ${nomeArquivo}...`)
-    fs.writeFile(nomeArquivo, dados, (error) => {
-        if(error) {
-            console.error(`Erro ao escrever dados no arquivo ${nomeArquivo}:`, error)
-            callback(error);
-        } else {
-            console.log(`Dados escritos no arquivo ${nomeArquivo} com sucesso.`);
-            callback(null);
-        }
-    })
+    try {
+        fs.writeFile(nomeArquivo, dados);
+        console.log(`Dados escritos no arquivo ${nomeArquivo} com sucesso.`);
+    }catch(error) {
+        console.error(`Erro ao escrever dados no arquivo ${nomeArquivo}:`, error);
+    }
 }
 
-function lerArquivoCallback(nomeArquivo, callback) {
+
+async function lerArquivoCallback(nomeArquivo) {
     console.log(`Lendo dados do arquivo: ${nomeArquivo}`)
-    fs.readFile(nomeArquivo, 'utf-8', (error, data) => {
-        if(error) {
-            console.error(`Erro ao ler dados do arquivo ${nomeArquivo}`, error)
-            callback(error, null)
-        } else {
-            console.log(`Dados lidos do arquivo ${nomeArquivo}`)
-            callback(null, data)
-        }
-    })
+    try{
+        const data = await fs.readFile(nomeArquivo, 'utf-8');
+        console.log(`Dados lidos do arquivo ${nomeArquivo}`)
+        return data;
+    }catch(error) {
+        console.error(`Erro ao ler dados do arquivo ${nomeArquivo}`, error);
+        return null;
+    }
 }
 
-function getPokemonDataWithCallbacks() {
+async function getPokemonDataWithCallbacks() {
     console.log("Aguardando retorno da Poke API")
-    fetch("https://pokeapi.co/api/v2/pokemon/1")
-        .then((response) => response.json())
-        .then((data) => {
-            const pokemonInfo = {
-                nome: data.name,
-                tipos: data.types.map(type => type.type.name),
-                peso: data.weight,
-                altura: data.height
+    try {
+        const response = await fetch("https://pokeapi.co/api/v2/pokemon/1");
+        const jsonResponse = await response.json();
+
+        const pokemonInfo = {
+            nome: jsonResponse.name,
+            tipos: jsonResponse.types.map(type => type.type.name),
+            peso: jsonResponse.weight,
+            altura: jsonResponse.height
+        }
+
+        const pokemonData = JSON.stringify(pokemonInfo, null, 2)
+        await escreverArquivoCallback('pokemon.json', pokemonData);
+        console.log("Pokemon cadastrado");
+
+        const arquivoContent = await lerArquivoCallback('dados.txt');
+        if(arquivoContent) {
+            console.log(`conteudo do arquivo dados.txt`, dadosArquivoLocal)
+            const pokemonContent = await lerArquivoCallback('pokemon.json');
+            if(pokemonContent) {
+                console.log("Conteudo do arquivo pokemon", pokemonContent)
+            } else {
+                console.error('Erro ao ler dados do pokemon', error)
             }
-
-            const pokemonData = JSON.stringify(pokemonInfo, null, 2)
-            escreverArquivoCallback('pokemon.json', pokemonData, (error) => {
-                if(error) {
-                    console.error('Erro ao escrever dados do pokemon', error)
-
-                } else {
-                    console.log("Pokemon cadastrado")
-                    lerArquivoCallback('dados.txt', (error, dadosArquivoLocal) => {
-                        if(error) {
-                            console.error('Erro ao ler arquivo dados.txt', error)
-                        } else {
-                            console.log(`conteudo do arquivo dados.txt`, dadosArquivoLocal)
-                            lerArquivoCallback('pokemon.json', (error, dadosPokemonSalvo) => {
-                                if(error) {
-                                    console.error('Erro ao ler dados do pokemon', error)
-            
-                                } else {
-                                    console.log("Conteudo do arquivo pokemon", dadosPokemonSalvo)
-                                }
-                            })
-                        }
-                    })
-                }
-            })
-
-        }).catch((error) => {
-            console.error("Erro ao obter dados do pokemon", error)
-        })
+        } else {
+            console.error('Erro ao ler arquivo dados.txt', error)
+        }
+        console.log(myPokemon);
+    } catch(error) {
+        console.error("Erro ao obter dados do pokemon", error)
+    }
 }
 
 getPokemonDataWithCallbacks();
