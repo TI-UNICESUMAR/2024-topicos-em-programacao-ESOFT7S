@@ -58,4 +58,4 @@ async function getPokemonDataWithCallbacks() {
     }
 }
 
-getPokemonDataWithCallbacks();
+getPokemonDataWithCallbacks(); 
