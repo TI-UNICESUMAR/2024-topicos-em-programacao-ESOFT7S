@@ -1,0 +1,635 @@
+{
+  "commanderObject": {
+    "name": "Atraxa, Praetors' Voice",
+    "colors": [
+      "B",
+      "G",
+      "U",
+      "W"
+    ]
+  },
+  "cardsList": [
+    {
+      "name": "Agadeem's Awakening // Agadeem, the Undercrypt",
+      "cardColors": []
+    },
+    {
+      "name": "A-Glamorous Outlaw",
+      "cardColors": [
+        "B",
+        "R",
+        "U"
+      ]
+    },
+    {
+      "name": "A-Guildsworn Prowler",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Amzu, Swarm's Hunger",
+      "cardColors": [
+        "B",
+        "G"
+      ]
+    },
+    {
+      "name": "Anowon, the Ruin Sage",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Arrogant Outlaw",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Arvad, Weatherlight Smuggler",
+      "cardColors": [
+        "B",
+        "W"
+      ]
+    },
+    {
+      "name": "A-Soul of Windgrace",
+      "cardColors": [
+        "B",
+        "G",
+        "R"
+      ]
+    },
+    {
+      "name": "A-Uurg, Spawn of Turg",
+      "cardColors": [
+        "B",
+        "G"
+      ]
+    },
+    {
+      "name": "Barrow Ghoul",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Barrow Naughty",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Batwing Brume",
+      "cardColors": [
+        "B",
+        "W"
+      ]
+    },
+    {
+      "name": "Bellowing Mauler",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bellowing Saddlebrute",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Black Sun's Twilight",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+      "cardColors": []
+    },
+    {
+      "name": "Bloodsworn Squire // Bloodsworn Knight",
+      "cardColors": []
+    },
+    {
+      "name": "Boltwing Marauder",
+      "cardColors": [
+        "B",
+        "R"
+      ]
+    },
+    {
+      "name": "Callous Sell-Sword // Burn Together",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Creakwood Ghoul",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Cruel Somnophage // Can't Wake Up",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Culling the Weak",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Curse of Shallow Graves",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Davriel, Rogue Shadowmage",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Davriel's Shadowfugue",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Deepwood Ghoul",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Denethor, Ruling Steward",
+      "cardColors": [
+        "B",
+        "W"
+      ]
+    },
+    {
+      "name": "Devouring Sugarmaw // Have for Dinner",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Devouring Swarm",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Drag to the Underworld",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Dungeon Crawler",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Earwig Squad",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Elbrus, the Binding Blade // Withengar Unbound",
+      "cardColors": []
+    },
+    {
+      "name": "Etherwrought Page",
+      "cardColors": [
+        "B",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "name": "Executioner's Swing",
+      "cardColors": [
+        "B",
+        "W"
+      ]
+    },
+    {
+      "name": "Festering Wound",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Fourth Bridge Prowler",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Gavony Unhallowed",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Ghen, Arcanum Weaver",
+      "cardColors": [
+        "B",
+        "R",
+        "W"
+      ]
+    },
+    {
+      "name": "Glamorous Outlaw",
+      "cardColors": [
+        "B",
+        "R",
+        "U"
+      ]
+    },
+    {
+      "name": "Golgari Rotwurm",
+      "cardColors": [
+        "B",
+        "G"
+      ]
+    },
+    {
+      "name": "Grenzo, Dungeon Warden",
+      "cardColors": [
+        "B",
+        "R"
+      ]
+    },
+    {
+      "name": "Greta, Sweettooth Scourge",
+      "cardColors": [
+        "B",
+        "G"
+      ]
+    },
+    {
+      "name": "Gríma Wormtongue",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Guildsworn Prowler",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Gumdrop Poisoner // Tempt with Treats",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Gurmag Swiftwing",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Gutwrencher Oni",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Gyruda, Doom of Depths",
+      "cardColors": [
+        "B",
+        "U"
+      ]
+    },
+    {
+      "name": "Gyrus, Waker of Corpses",
+      "cardColors": [
+        "B",
+        "G",
+        "R"
+      ]
+    },
+    {
+      "name": "Harrowing Journey",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Haunting Wind",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Henry Wu, InGen Geneticist",
+      "cardColors": [
+        "B",
+        "G",
+        "U"
+      ]
+    },
+    {
+      "name": "He Who Hungers",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Howling Fury",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Infernius Spawnington III, Esq.",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "In Garruk's Wake",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Kagha, Shadow Archdruid",
+      "cardColors": [
+        "B",
+        "G"
+      ]
+    },
+    {
+      "name": "Kiku, Night's Flower",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Knight of Dusk's Shadow",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Magus of the Will",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Morgul-Knife Wound",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Nezumi Shortfang // Stabwhisker the Odious",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Nissa of Shadowed Boughs",
+      "cardColors": [
+        "B",
+        "G"
+      ]
+    },
+    {
+      "name": "Pawn of Ulamog",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Pious Evangel // Wayward Disciple",
+      "cardColors": []
+    },
+    {
+      "name": "Plague Wight",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Plague Wind",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Plague Witch",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Ragged Recluse // Odious Witch",
+      "cardColors": []
+    },
+    {
+      "name": "Reclusive Wight",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Righteous War",
+      "cardColors": [
+        "B",
+        "W"
+      ]
+    },
+    {
+      "name": "Sewer Plague",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Shadewing Laureate",
+      "cardColors": [
+        "B",
+        "W"
+      ]
+    },
+    {
+      "name": "Shadow Guildmage",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Shadow Summoning",
+      "cardColors": [
+        "B",
+        "W"
+      ]
+    },
+    {
+      "name": "Skullbriar, the Walking Grave",
+      "cardColors": [
+        "B",
+        "G"
+      ]
+    },
+    {
+      "name": "Snapdax, Apex of the Hunt",
+      "cardColors": [
+        "B",
+        "R",
+        "W"
+      ]
+    },
+    {
+      "name": "Soul of Windgrace",
+      "cardColors": [
+        "B",
+        "G",
+        "R"
+      ]
+    },
+    {
+      "name": "Squeaking Pie Grubfellows",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Starscream, Power Hungry // Starscream, Seeker Leader",
+      "cardColors": []
+    },
+    {
+      "name": "Swallowing Plague",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Swarm Guildmage",
+      "cardColors": [
+        "B",
+        "G"
+      ]
+    },
+    {
+      "name": "Tegwyll, Duke of Splendor",
+      "cardColors": [
+        "B",
+        "U"
+      ]
+    },
+    {
+      "name": "Tegwyll's Scouring",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "The Haunt of Hightower",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Thoughtpicker Witch",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Thrashing Mudspawn",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Thrashing Wumpus",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Tor Wauki the Younger",
+      "cardColors": [
+        "B",
+        "R"
+      ]
+    },
+    {
+      "name": "Uglúk of the White Hand",
+      "cardColors": [
+        "B",
+        "R"
+      ]
+    },
+    {
+      "name": "Ukkima, Stalking Shadow",
+      "cardColors": [
+        "B",
+        "U"
+      ]
+    },
+    {
+      "name": "Underbridge Warlock",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Underworld Charger",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Unwilling Ingredient",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Uurg, Spawn of Turg",
+      "cardColors": [
+        "B",
+        "G"
+      ]
+    },
+    {
+      "name": "Vengeful Warchief",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Wailing Ghoul",
+      "cardColors": [
+        "B"
+      ]
+    },
+    {
+      "name": "Wake to Slaughter",
+      "cardColors": [
+        "B",
+        "R"
+      ]
+    }
+  ]
+}
