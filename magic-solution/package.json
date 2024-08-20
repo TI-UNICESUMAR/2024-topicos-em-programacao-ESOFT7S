@@ -1,0 +1,25 @@
+{
+  "name": "bussola",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sucrase-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.3.35",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "sucrase": "^3.29.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
